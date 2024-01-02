@@ -1,0 +1,63 @@
+body {
+ background-color: #f6f8fa;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ margin: 0;
+}
+
+.login-container {
+ background-color: #ffffff;
+ border-radius: 4px;
+ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+ padding: 20px;
+ max-width: 400px;
+ width: 100%;
+ transition: transform 0.3s ease-in-out;
+}
+
+.login-container:hover {
+ transform: translateY(-10px);
+}
+
+.login-title {
+ font-size: 24px;
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+
+.login-subtitle {
+ font-size: 14px;
+ color: #777;
+ margin-bottom: 20px;
+}
+
+.input-container {
+ position: relative;
+ margin-bottom: 20px;
+}
+
+.input-container .octicon {
+ position: absolute;
+ top: 8px;
+ left: 12px;
+ color: #777;
+}
+
+.input-container input {
+ width: 100%;
+ padding: 8px 12px;
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ font-size: 14px;
+ transition: border-color 0.3s ease-in-out;
+}
+
+.input-container input:focus {
+ border-color: #0366d6;
+}
+
+.login-button {
+ width: 100%;
+ padding: 1
